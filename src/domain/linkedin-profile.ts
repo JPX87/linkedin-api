@@ -24,17 +24,27 @@ export class LinkedinProfileEducation {
   public 'End Date'?: string;
 }
 
+export class LinkedinProfileVolunteeringExperience {
+  public 'Role'?: string;
+  public 'Cause'?: string;
+  public 'Organization Name'?: string;
+  public 'Started On'?: string;
+  public 'Finished On'?: string;
+}
+
 // -- 👉 main class
 export class LinkedinProfile {
   public profile: LinkedinProfileProfile;
   public skills: LinkedinProfileSkill[];
   public positions: LinkedinProfilePosition[];
   public education: LinkedinProfileEducation[];
+  public volunteeringExperiences: LinkedinProfileVolunteeringExperience[];
 
   public constructor() {
     this.profile = new LinkedinProfileProfile();
     this.skills = [];
     this.positions = [];
     this.education = [];
+    this.volunteeringExperiences = [];
   }
 }

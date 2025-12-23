@@ -3,7 +3,8 @@ import {
   LinkedinProfileEducation,
   LinkedinProfilePosition,
   LinkedinProfileProfile,
-  LinkedinProfileSkill
+  LinkedinProfileSkill,
+  LinkedinProfileVolunteeringExperience
 } from '../domain/linkedin-profile';
 import { logger } from '../util/logger';
 import { LinkedinAPIClient } from './linkedin-api.client';
@@ -19,8 +20,9 @@ export class LinkedinProfileService {
     const skills = await this.client.fetchProfileDomainData<LinkedinProfileSkill[]>(token, 'SKILLS', 'ARRAY');
     const positions = await this.client.fetchProfileDomainData<LinkedinProfilePosition[]>(token, 'POSITIONS', 'ARRAY');
     const education = await this.client.fetchProfileDomainData<LinkedinProfileEducation[]>(token, 'EDUCATION', 'ARRAY');
+    const volunteeringExperiences = await this.client.fetchProfileDomainData<LinkedinProfileVolunteeringExperience[]>(token, 'VOLUNTEERING_EXPERIENCES', 'ARRAY');
 
-    const linkedinProfile = { profile, skills, positions, education };
+    const linkedinProfile = { profile, skills, positions, education, volunteeringExperiences };
     const isEmptyProfile = this.isEmptyProfile(profile);
     const timeElapsed = Date.now() - startTime; // in milliseconds
     logger.debug(`🧐 [LinkedinProfileService] Linkedin profile retrieved: ${JSON.stringify(linkedinProfile)}`);

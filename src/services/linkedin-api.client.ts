@@ -1,7 +1,7 @@
 import axios, { AxiosError } from 'axios';
 import { logger } from '../util/logger';
 
-export type LinkedinDomain = 'PROFILE' | 'SKILLS' | 'POSITIONS' | 'EDUCATION';
+export type LinkedinDomain = 'PROFILE' | 'SKILLS' | 'POSITIONS' | 'EDUCATION' | 'VOLUNTEERING_EXPERIENCES';
 export type LinkedinDomainResponseType = 'OBJECT' | 'ARRAY';
 
 export class LinkedinAPIClient {
