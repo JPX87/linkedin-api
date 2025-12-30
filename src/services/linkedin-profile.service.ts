@@ -22,7 +22,7 @@ export class LinkedinProfileService {
     const education = await this.client.fetchProfileDomainData<LinkedinProfileEducation[]>(token, 'EDUCATION', 'ARRAY');
     const volunteeringExperiences = await this.client.fetchProfileDomainData<LinkedinProfileVolunteeringExperience[]>(token, 'VOLUNTEERING_EXPERIENCES', 'ARRAY');
 
-    const linkedinProfile = { profile, skills, positions, education, volunteeringExperiences };
+    const linkedinProfile = { profile, skills, positions, education, volunteeringExperiences } as LinkedinProfile;
     const isEmptyProfile = this.isEmptyProfile(profile);
     const timeElapsed = Date.now() - startTime; // in milliseconds
     logger.debug(`🧐 [LinkedinProfileService] Linkedin profile retrieved: ${JSON.stringify(linkedinProfile)}`);

@@ -46,6 +46,17 @@ export const createMockedLinkedinProfile = (customValues: Partial<LinkedinProfil
     }
   ];
 
+  profile.volunteeringExperiences = customValues.volunteeringExperiences ?? [
+    {
+      Role: 'Volunteer Teacher',
+      'Company Name': 'Manfred',
+      Cause: 'Education',
+      Description: 'Teaching programming to underprivileged children',
+      'Started On': '2020',
+      'Finished On': '2024'
+    }
+  ];
+
   return profile;
 };
 

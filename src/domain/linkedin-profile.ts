@@ -27,7 +27,8 @@ export class LinkedinProfileEducation {
 export class LinkedinProfileVolunteeringExperience {
   public 'Role'?: string;
   public 'Cause'?: string;
-  public 'Organization Name'?: string;
+  public 'Company Name'?: string;
+  public 'Description'?: string;
   public 'Started On'?: string;
   public 'Finished On'?: string;
 }

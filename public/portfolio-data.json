@@ -1,0 +1,220 @@
+{
+  "linkedinProfile": {
+    "profile": {
+      "Websites": "[PORTFOLIO:https://jeremypatapy.fr]",
+      "Address": "",
+      "Maiden Name": "",
+      "Instant Messengers": "",
+      "First Name": "Jeremy",
+      "Geo Location": "Toulouse, Occitanie, France",
+      "Twitter Handles": "",
+      "Industry": "Software Development",
+      "Zip Code": "31400",
+      "Headline": "M2 MIAGE de Toulouse / Alternance Aumovio",
+      "Summary": "Alternant chez Aumovio en tant que développeur Full-Stack, et étudiant en M2 MIAGE ITN à Toulouse, avec une spécialisation en développement informatique et gestion de projet.",
+      "Birth Date": "Jul 7",
+      "Last Name": "Patapy"
+    },
+    "skills": [
+      {
+        "Name": "SAP ERP"
+      },
+      {
+        "Name": "ABAP"
+      },
+      {
+        "Name": "UI5"
+      },
+      {
+        "Name": "OData"
+      },
+      {
+        "Name": "ECC"
+      },
+      {
+        "Name": "React.js"
+      },
+      {
+        "Name": "Android"
+      },
+      {
+        "Name": "Gestion des stocks"
+      },
+      {
+        "Name": "promox"
+      },
+      {
+        "Name": "Python (langage de programmation)"
+      },
+      {
+        "Name": "Raspberry Pi"
+      },
+      {
+        "Name": "Debian"
+      },
+      {
+        "Name": "Serveur Linux"
+      },
+      {
+        "Name": "Linux"
+      },
+      {
+        "Name": "Ubuntu"
+      },
+      {
+        "Name": "Configuration d’applications"
+      },
+      {
+        "Name": "Installation de logiciel"
+      },
+      {
+        "Name": "Dépannage de matériel informatique"
+      },
+      {
+        "Name": "Dépannage réseau"
+      },
+      {
+        "Name": "Windows Installer"
+      },
+      {
+        "Name": "HTML5"
+      },
+      {
+        "Name": "PHP"
+      },
+      {
+        "Name": "JavaScript"
+      },
+      {
+        "Name": "Feuilles de style en cascade (CSS)"
+      },
+      {
+        "Name": "SQL"
+      },
+      {
+        "Name": "MySQL"
+      },
+      {
+        "Name": "PhpMyAdmin"
+      },
+      {
+        "Name": "Injection SQL"
+      },
+      {
+        "Name": "faille XSS"
+      }
+    ],
+    "positions": [
+      {
+        "Finished On": "",
+        "Title": "Ingénieur Full Stack",
+        "Company Name": "AUMOVIO",
+        "Description": "",
+        "Location": "Toulouse, Occitanie, France",
+        "Started On": "Sep 2025"
+      },
+      {
+        "Finished On": "Sep 2025",
+        "Title": "Ingénieur Full Stack",
+        "Company Name": "Continental",
+        "Description": "",
+        "Location": "Toulouse, Occitanie, France",
+        "Started On": "Sep 2024"
+      },
+      {
+        "Finished On": "Aug 2024",
+        "Title": "Développeur SAP : ABAP / UI5 / ODATA",
+        "Company Name": "CGI",
+        "Description": "Au sein d'une équipe SAFe à CGI, j'ai contribué à maintenir et à faire évolué une solution SAP dans la configuration et l'attestation d'avion",
+        "Location": "Toulouse, Occitanie, France",
+        "Started On": "Apr 2024"
+      },
+      {
+        "Finished On": "Jul 2023",
+        "Title": "Alternance - Developeur web",
+        "Company Name": "La Poste Groupe",
+        "Description": "Création d'une application Web permettant l'affichage d'information (photo,vidéo,PDF) avec multiples options comme le suivi en temps réel, gestion d’horaires, gestion de sites, comptes utilisateurs connectés à l'Active Directory. Développée en PHP, HTML, CSS et JS.",
+        "Location": "Limoges, Nouvelle-Aquitaine, France",
+        "Started On": "Sep 2021"
+      },
+      {
+        "Finished On": "Feb 2021",
+        "Title": "Stagiaire de service informatique",
+        "Company Name": "CCI DE LIMOGES ET DE LA HAUTE-VIENNE",
+        "Description": "Service informatique (Installation et dépannage d’ordinateurs et matériels réseaux).",
+        "Location": "Limoges, Nouvelle-Aquitaine, France",
+        "Started On": "Jan 2021"
+      },
+      {
+        "Finished On": "Nov 2020",
+        "Title": "Stagiaire en informatique",
+        "Company Name": "La Poste Groupe",
+        "Description": "Mise en place d’un système de surveillance (ZoneMinder) sur Ubuntu.",
+        "Location": "Limoges, Nouvelle-Aquitaine, France",
+        "Started On": "Nov 2020"
+      },
+      {
+        "Finished On": "Dec 2019",
+        "Title": "Stage en développement de logiciels",
+        "Company Name": "La Poste Groupe",
+        "Description": "Mise à niveau et amélioration d’un programme python qui consiste à gérer un contrôle d’accès.",
+        "Location": "Limoges, Nouvelle-Aquitaine, France",
+        "Started On": "Dec 2019"
+      },
+      {
+        "Finished On": "Jul 2019",
+        "Title": "Stagiaire en informatique",
+        "Company Name": "Agence de services et de paiement (ASP)",
+        "Description": "Masterisation d’ordinateurs, installation de logiciels, configuration de smartphones et gestion des stocks.",
+        "Location": "Limoges, Nouvelle-Aquitaine, France",
+        "Started On": "Jun 2019"
+      }
+    ],
+    "education": [
+      {
+        "Activities": "",
+        "Degree Name": "Master Miage ITN",
+        "Start Date": "Sep 2024",
+        "School Name": "MIAGE de Toulouse",
+        "End Date": "Sep 2026",
+        "Notes": ""
+      },
+      {
+        "Activities": "",
+        "Degree Name": "Licence 3 MIASHS, Méthodes informatiques appliquées à la gestion des entreprises",
+        "Start Date": "Aug 2023",
+        "School Name": "MIAGE de Toulouse",
+        "End Date": "Sep 2024",
+        "Notes": ""
+      },
+      {
+        "Activities": "",
+        "Degree Name": "Brevet de technicien supérieur (BTS) SIO Option SLAM",
+        "Start Date": "Sep 2021",
+        "School Name": "Lycée Suzanne Valadon - Limoges",
+        "End Date": "Jul 2023",
+        "Notes": ""
+      },
+      {
+        "Activities": "",
+        "Degree Name": "Baccalauréat professionnel Système Numérique option Réseaux Informatiques et Systèmes Communicants",
+        "Start Date": "Sep 2018",
+        "School Name": "Lycée Polyvalent Maryse Bastié - Limoges",
+        "End Date": "Jul 2021",
+        "Notes": ""
+      }
+    ],
+    "volunteeringExperiences": [
+      {
+        "Finished On": "",
+        "Role": "Membre Actif",
+        "Company Name": "UPS in Space",
+        "Description": "",
+        "Started On": "Nov 2025",
+        "Cause": "scienceAndTechnology"
+      }
+    ]
+  },
+  "isEmptyProfile": false,
+  "timeElapsed": 2264
+}

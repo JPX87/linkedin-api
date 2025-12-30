@@ -23,6 +23,7 @@ describe('A linkedin profile service', () => {
     client.fetchProfileDomainData.calledWith('fake_token', 'SKILLS', 'ARRAY').mockResolvedValue(expectedProfile.skills);
     client.fetchProfileDomainData.calledWith('fake_token', 'POSITIONS', 'ARRAY').mockResolvedValue(expectedProfile.positions);
     client.fetchProfileDomainData.calledWith('fake_token', 'EDUCATION', 'ARRAY').mockResolvedValue(expectedProfile.education);
+    client.fetchProfileDomainData.calledWith('fake_token', 'VOLUNTEERING_EXPERIENCES', 'ARRAY').mockResolvedValue(expectedProfile.volunteeringExperiences);
 
     const { linkedinProfile, isEmptyProfile } = await service.getLinkedinProfile('fake_token');
     expect(linkedinProfile).toEqual(expectedProfile);
@@ -34,6 +35,7 @@ describe('A linkedin profile service', () => {
     client.fetchProfileDomainData.calledWith('fake_token', 'SKILLS', 'ARRAY').mockResolvedValue([]);
     client.fetchProfileDomainData.calledWith('fake_token', 'POSITIONS', 'ARRAY').mockResolvedValue([]);
     client.fetchProfileDomainData.calledWith('fake_token', 'EDUCATION', 'ARRAY').mockResolvedValue([]);
+    client.fetchProfileDomainData.calledWith('fake_token', 'VOLUNTEERING_EXPERIENCES', 'ARRAY').mockResolvedValue([]);
 
     const { isEmptyProfile } = await service.getLinkedinProfile('fake_token');
     expect(isEmptyProfile).toBe(true);
